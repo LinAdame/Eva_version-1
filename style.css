@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #fff1e6;
+    
+}
+
+
+header{
+    padding:20px 30px ; 
+    min-height: 80vh;
+    background-image: url(/obrazky/DSC_1432aa.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align:center;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   
+}
+
+header h1, p{
+    font-size: 25px;
+    text-align: center;
+    text-shadow: 5px 6px 20px rgb(255, 255, 255);
+    -webkit-text-stroke: white 0.2px;
+
+}
+
+header a{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+
+.rtt{
+    
+    background-color: #f9e3d0;
+    margin: 0%;
+ 
+ 
+}
+
+/* menu */
+.menu{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.menu li{
+    display: inline-block;
+}
+
+.menu a{
+    display: inline-block;
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 20px 30px;
+    text-shadow: 5px 6px 20px rgb(255, 255, 255);
+    -webkit-text-stroke: white 0.2px;
+    font-size: large;
+}
+
+.menu a:hover, 
+.menu a:focus, 
+.menu a:active {
+        color: black;
+        background-color: #fff1e6;
+    }
+
+
+
+section {
+    padding: 50px 15%;
+    margin: 0;
+    overflow: auto;
+}
+
+.spoluprace1{
+    background-size: 100%;  
+    
+}
+.spoluprace1 img{
+    float: right;
+    width: 20%;
+    border-radius: 20px;
+}
+
+.spoluprace2{
+    background-size: cover;  
+}
+
+.EvaSpolu{
+    float: right;
+    width: 30%;
+    border-radius: 20px;
+}
+
+h2{
+    padding: 50px 15%;
+    overflow: auto;
+}
+
+.spolu{
+    margin: 0;
+    background-size: cover;
+}
+
+.formular{
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid black;
+    background-image: url(/obrazky/alexander-grey-62vi3TG5EDg-unsplash.jpg);
+    background-size: cover;
+    border-radius: 20px;
+}
+
+
+
+.fotoOmne{
+    width: 40%;
+    float: left;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.fotoKontakt{
+    width: 30%;
+    float: right;
+    margin: 10px;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+.sezeni{
+    background-color: #f9e3d0;
+}
+
+
+
+.arrowUp{
+    padding: 5px;
+    margin: 15px 5px 5px;
+    width: 50px;
+    height: 50px;
+   
+    
+    
+}
+
+.kontakt{
+    background-color: #f9e3d0;
+
+}
+
+.kontakt h2{
+    padding-top: 0;
+    padding-left: 0;
+}
+
+.pozadiKontakt{
+    background-image: url(/obrazky/DSC_1331a.jpg);
+    background-repeat: no-repeat;
+    width: 80%;
+}
+
+
+.paticka {
+
+    background-color: #282425;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
